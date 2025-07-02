@@ -16,7 +16,6 @@ public class OrdersTest {
     LoginModel loginModel;
     CreateUserTest createUserTest = new CreateUserTest();
     String token;
-    Ingredients ingridsList;
 
     @Test
     @DisplayName("Получение заказов пользователя")

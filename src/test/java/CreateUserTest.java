@@ -1,12 +1,10 @@
 import api.BurgersApi;
 import io.qameta.allure.Step;
-import io.restassured.internal.common.assertion.Assertion;
 import io.restassured.response.Response;
 import java.util.Random;
 import jsons.createUser.CreateUserModel;
 import jsons.login.LoginModel;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
